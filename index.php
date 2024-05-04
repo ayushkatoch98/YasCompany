@@ -1,5 +1,4 @@
-<html>
-<body>
+
 <?php 
 
 // accept json content
@@ -40,5 +39,3 @@ print_r($file);
 
 
 ?>
-</body>
-</html>
