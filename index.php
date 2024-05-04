@@ -2,6 +2,9 @@
 <body>
 <?php 
 
+// accept json content
+header('Content-Type: application/json');
+
 
 print_r($_POST);
 // if request is post
