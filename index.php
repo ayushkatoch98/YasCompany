@@ -8,7 +8,7 @@ header('Content-Type: application/json');
 // if request is post
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
-    print_r($_POST);
+    // print_r($_POST);
     $arr = json_encode($_POST);
 
     $file = file_get_contents('data.txt');
